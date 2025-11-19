@@ -209,7 +209,7 @@ export const haTheme = EditorView.theme({
 });
 
 const haHighlightStyle = HighlightStyle.define([
-  { tag: tags.keyword, color: "var(--codemirror-keyword, #6262FF)" },
+  { tag: tags.keyword, color: "var(--codemirror-keyword, #f39c12)" },
   {
     tag: [
       tags.name,
@@ -230,7 +230,7 @@ const haHighlightStyle = HighlightStyle.define([
   },
   {
     tag: [tags.definition(tags.name), tags.separator],
-    color: "var(--codemirror-def, #8DA6CE)",
+    color: "var(--codemirror-def, #c86c3b)",
   },
   {
     tag: [

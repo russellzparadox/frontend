@@ -6,6 +6,7 @@
 
 /** Domains that have a state card. */
 export const DOMAINS_WITH_CARD = [
+  "camera",
   "alert",
   "button",
   "climate",

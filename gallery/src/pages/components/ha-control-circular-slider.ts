@@ -152,10 +152,10 @@ export class DemoHaCircularSlider extends LitElement {
       --control-circular-slider-color: #ff9800;
     }
     ha-control-circular-slider[inverted] {
-      --control-circular-slider-color: #2196f3;
+      --control-circular-slider-color: #ff6f00;
     }
     ha-control-circular-slider[dual] {
-      --control-circular-slider-high-color: #2196f3;
+      --control-circular-slider-high-color: #ff6f00;
       --control-circular-slider-low-color: #ff9800;
     }
     .field {

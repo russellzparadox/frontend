@@ -144,15 +144,15 @@ export class HaAuthTextField extends HaTextField {
           mwc-notched-outline {
           --mdc-notched-outline-border-color: var(
             --mdc-text-field-focused-label-color,
-            var(--mdc-theme-primary, rgba(98, 0, 238, 0.87))
+            var(--mdc-theme-primary, rgba #e74c3c)
           );
         }
 
         ha-auth-textfield:not([disabled])
           .mdc-text-field.mdc-text-field--focused:not(.mdc-text-field--invalid)
           .mdc-floating-label {
-          color: #6200ee;
-          color: var(--mdc-theme-primary, #6200ee);
+          color: #e74c3c;
+          color: var(--mdc-theme-primary, ##e74c3c);
         }
 
         ha-auth-textfield:not([disabled])
@@ -223,7 +223,7 @@ export class HaAuthTextField extends HaTextField {
         ha-auth-textfield:not([disabled])
           .mdc-text-field.mdc-text-field--focused:not(.mdc-text-field--invalid)
           .mdc-floating-label {
-          color: var(--mdc-theme-primary, #6200ee);
+          color: var(--mdc-theme-primary, #e74c3c);
         }
         ha-auth-textfield[no-spinner] input::-webkit-outer-spin-button,
         ha-auth-textfield[no-spinner] input::-webkit-inner-spin-button {
